@@ -310,6 +310,9 @@ td.on-off-but input#switch {
 .last-sec-2 {
     display: flex;
 }
+input#vol {
+    width: 182px;
+}
 /* =================================== */
 
 @media (max-width:1200px){
@@ -387,11 +390,37 @@ td.on-off-but input#switch {
         border-radius: 100px;
         position: absolute;
     }
+    input#vol {
+        width: 143px !important;
+    }
+    
+    select#select-2{
+        width: 142px !important;
+    }
+    p.last-title{
+        margin-bottom: 0 !important;
+    }
+    .inner-sec.d-flex.align-items-center.justify-content-between {
+        margin: 6% 0px;
+    }
 }
 @media(min-width:320px) and (max-width:359px){
     span.reset.position-absolute.text-white {
         width: 27% !important;
        
+    }
+    div#tabs-content{
+        padding: 5px 10px !important;
+    }
+    .button {
+        position: relative;
+        top: 0;
+        width: 49px !important;
+        height: 29px;
+        overflow: hidden;
+    }
+    select#select-2 {
+        width: 122px !important;
     }
     span.reset.position-absolute.text-white {
         background-color: #000;
@@ -402,5 +431,16 @@ td.on-off-but input#switch {
         padding: 6px 10px;
         border-radius: 100px;
         position: absolute;
+    }
+    input#vol {
+        width: 122px !important;
+    }
+    #button-18 .checkbox:checked + .knobs span {
+        left: 20px !important;
+        background-color: #008f1f;
+    }
+    #button-18 .checkbox:checked + .knobs:before {
+        content: "ON";
+        left: 23px !important;
     }
 }
