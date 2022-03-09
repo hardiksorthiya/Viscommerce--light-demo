@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Roboto';
+    background: #ebebeb;
 }
 img.image-bg {
     width: 100%;
@@ -78,7 +79,7 @@ div#collapseOne,div#collapseTwo,div#collapseThree,div#collapsefour {
 
 span.reset.position-absolute.text-white {
     background-color: #000;
-    width: 12%;
+    width: 10%;
     right: 3%;
     bottom: 4%;
     padding: 6px 10px;
@@ -151,7 +152,7 @@ span.last-btn.text-white {
 }
 a.button-last {
     text-decoration: none;
-}
+}   
 
 /* ===================================================== */
 
@@ -315,5 +316,91 @@ td.on-off-but input#switch {
     span.reset.position-absolute.text-white {
         width: 12%;
         padding: 5px 8px;
+    }
+}
+
+
+@media(max-width:992px){
+    span.reset.position-absolute.text-white {
+        width: 13% !important;
+        padding: 5px 8px;
+    }
+    span.reset.position-absolute.text-white {
+        background-color: #000;
+        width: 10%;
+        right: 3% !important;
+        bottom: 5% !important;
+        padding: 6px 10px;
+        border-radius: 100px;
+        position: absolute;
+    }
+}
+
+
+@media(max-width:768px){
+    span.reset.position-absolute.text-white {
+        width: 13% !important;
+        padding: 5px 8px;
+    }
+    span.reset.position-absolute.text-white {
+        background-color: #000;
+        width: 10%;
+        right: 3% !important;
+        bottom: 4% !important;
+        padding: 6px 10px;
+        border-radius: 100px;
+        position: absolute;
+    }
+    .two-size {
+        margin-top: 5%;
+    }
+}
+
+@media(max-width:576px){
+    span.reset.position-absolute.text-white {
+        width: 16% !important;
+       
+    }
+    span.reset.position-absolute.text-white {
+        background-color: #000;
+        width: 10%;
+        right: 4% !important;
+        bottom: 5% !important;
+        padding: 6px 10px;
+        border-radius: 100px;
+        position: absolute;
+    }
+}
+
+@media(max-width:479px){
+    span.reset.position-absolute.text-white {
+        width: 25% !important;
+       
+    }
+    span.reset.position-absolute.text-white {
+        background-color: #000;
+        width: 10%;
+        right: 6% !important;
+        bottom: 8% !important;
+        font-size: 13px;
+        padding: 6px 10px;
+        border-radius: 100px;
+        position: absolute;
+    }
+}
+@media(min-width:320px) and (max-width:359px){
+    span.reset.position-absolute.text-white {
+        width: 27% !important;
+       
+    }
+    span.reset.position-absolute.text-white {
+        background-color: #000;
+        width: 10%;
+        right: 8% !important;
+        bottom: 9% !important;
+        font-size: 13px;
+        padding: 6px 10px;
+        border-radius: 100px;
+        position: absolute;
     }
 }
