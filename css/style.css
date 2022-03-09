@@ -374,11 +374,26 @@ input#vol {
         position: absolute;
     }
 }
-
+@media(min-width:440px) and (max-width:575px){
+    table.table td {
+        padding: 5px 0;
+        font-size: 19px !important;
+        border: none;
+    }
+    
+}
 @media(max-width:479px){
     span.reset.position-absolute.text-white {
         width: 25% !important;
        
+    }
+    .button {
+     
+        top: -4px !important;
+ 
+    }
+    #button-18 .knobs span{
+        border-radius: 8px !important;
     }
     span.reset.position-absolute.text-white {
         background-color: #000;
@@ -402,6 +417,9 @@ input#vol {
     }
     .inner-sec.d-flex.align-items-center.justify-content-between {
         margin: 6% 0px;
+    }
+    div#tabs-content {
+        padding: 5px 5px !important;
     }
 }
 @media(min-width:320px) and (max-width:359px){
