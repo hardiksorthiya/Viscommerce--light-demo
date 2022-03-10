@@ -90,37 +90,33 @@ svg.svg-inline--fa.fa-rotate-left {
     margin-right: 5%;
 }
 
-ul#tabs-nav {
-    display: flex;
-    list-style: none;
-    padding:0;
-    margin: 0;
-    justify-content: space-between;
-}
 
-ul#tabs-nav li a {
+.nav-link {
     font-weight: 500;
     color: #000;
     text-decoration: none;
     font-size: 14px;
 }
+.nav{
+    justify-content: space-around;
 
+}
 li.active a {
     color: #999 !important;
 }
 .accordion-body{
     padding: 0 !important;
 }
-.main-tab {
-    padding: 5px 15px ;
-    border-bottom: 1px solid;
-    box-shadow: 0px 1px 2px 0px #9b9b9b;
-}
-div#tabs-content{
-    padding: 5px 15px ;
+.nav-tabs {
+    border-bottom: 1px solid #000000;
+    box-shadow: 0px 2px 4px 0 #b5b5b5;
 }
 
-
+div#home,
+div#profile,
+div#contact {
+    padding: 5px 15px;
+}
 
 
 .accordion-body.two,.accordion-body.three,.accordion-body.four {
@@ -205,7 +201,7 @@ td.on-off-but input#switch {
   
   .button {
     position: relative;
-    top: 0;
+    top: -5px;
     width: 63px;
     height: 29px;
 
@@ -345,10 +341,7 @@ input#vol {
         border-radius: 100px;
         position: absolute;
     }
-    div#tabs-content {
-        padding: 5px 8px;
-    }
-    
+
   
     
 }
@@ -383,13 +376,8 @@ input#vol {
         font-size: 17px;
         
     }
-    div#tabs-content {
-        padding: 5px 15px !important;
-    }
-    .main-tab {
-        padding: 5px 20px !important;
-    
-    }
+
+
     
     
     
@@ -482,9 +470,7 @@ input#vol {
     .inner-sec.d-flex.align-items-center.justify-content-between {
         margin: 6% 0px;
     }
-    div#tabs-content {
-        padding: 5px 5px !important;
-    }
+
 }
 
 
@@ -498,9 +484,7 @@ input#vol {
         width: 27% !important;
        
     }
-    div#tabs-content{
-        padding: 5px 10px !important;
-    }
+
     .button {
         position: relative;
         top: 0;
